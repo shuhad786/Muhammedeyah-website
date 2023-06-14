@@ -36,4 +36,4 @@ function landingPage() {
   )
 }
 
-export default landingPage
+export default landingPage;

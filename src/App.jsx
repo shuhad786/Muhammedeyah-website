@@ -1,5 +1,5 @@
 import NavBar from './components/navbar/navBar';
-import LandingPage from './components/landingPage/landingPage';
+import LandingPage from './components/landingpage';
 import './App.css'
 
 function App() {
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
