@@ -16,7 +16,7 @@ import slide7 from '../../assets/staff-runners.jpg';
 function Carousel() {
   return (
     <>
-      <h1 className="mt-16 text-bold text-center text-6xl text-blue-950 bg-gradient-to-r from-yellow-400 to-yellow-400 bg-gradient-to-r text-transparent bg-clip-text">Past Adventures</h1>
+      <h1 className="mt-16 text-bold text-center text-6xl text-blue-950 bg-gradient-to-r from-yellow-400 to-yellow-400 bg-gradient-to-r text-transparent bg-clip-text">Past Events</h1>
 
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -26,28 +26,28 @@ function Carousel() {
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
-        className="mt-16 mb-16 p-10 hover:p-4 hover:duration-1000 hover:ease-in ease-out transition-all"
+        className="mt-16 mb-16 p-10 hover:duration-700 hover:ease-in ease-out transition-all"
       >
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide1} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide1} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide2} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide2} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide3} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide3} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide4} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide4} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide5} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide5} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide6} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide6} alt="slide" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-700 hover:rounded-md" src={slide7} alt="slide" />
+          <img className="rounded-3xl w-10/12 ease-out hover:ease-in hover:w-full duration-500 hover:rounded-md" src={slide7} alt="slide" />
         </SwiperSlide>
       </Swiper>
     </>
